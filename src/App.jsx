@@ -3,13 +3,7 @@ import './App.css'
 
 function App() {
   
-  const handleClick = () => {
-    if (document.querySelector("#theNewTask")?.inputValue.lenght > 0) {
-      setTask(document.querySelector("#theNewTask")?.inputValue);
-    }
-    localStorage.setItem("tasks", task);
-  };
-
+  
   return (
     <>
       <main role='main' className='w-full h-screen bg-creamColor flex justify-center items-center'>
